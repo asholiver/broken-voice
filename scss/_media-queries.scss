@@ -1,0 +1,23 @@
+// bp = breakpoint
+@mixin bp($screenSize) {
+
+    $bp-x-small: "(max-width: 500px)";
+    $bp-small: "(max-width: 760px)";
+    $bp-medium: "(max-width: 1023px)";
+
+    @if $screenSize == medium {
+        @media #{$bp-medium} {
+            @content;
+        }
+    }
+    @else if $screenSize == small {
+        @media #{$bp-small} {
+            @content;
+        }
+    }
+    @else if $screenSize == x-small {
+        @media #{$bp-x-small}  {
+            @content;
+        }
+    }
+}
