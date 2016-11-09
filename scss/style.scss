@@ -1,6 +1,8 @@
 
 /* base */
 
+@import 'functions';
+
 @import 'settings';
 
 @import 'media-queries';
@@ -14,3 +16,17 @@
 @import 'layout/grid';
 
 @import 'layout/container';
+
+@import 'component/header';
+
+@import 'component/main-nav';
+
+@import 'component/headline';
+
+@import 'component/news';
+
+@import 'component/book';
+
+@import 'component/social';
+
+@import 'component/read-more'

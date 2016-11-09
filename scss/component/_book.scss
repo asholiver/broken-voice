@@ -1,0 +1,17 @@
+.c-book-section {
+    background-color: $g-color-primary;
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+}
+
+
+.c-book {
+    display: block;
+}
+
+.c-book__image {
+    box-shadow: 6px 6px 8px 0 rgba(0, 0, 0, 0.75);
+    height: rem(310); // TODO - Resize images in photoshop
+    margin-top: rem(16);
+    width: 100%;
+}

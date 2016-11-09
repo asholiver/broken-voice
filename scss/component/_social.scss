@@ -1,0 +1,11 @@
+.c-social {
+    display: block;
+    text-align: center;
+}
+
+.c-social__icon {
+    fill: $g-color-primary;
+    height: 50px;
+    transition: all 0.3s ease;
+    width: 50px;
+}

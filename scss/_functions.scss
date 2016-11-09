@@ -1,0 +1,20 @@
+$to-rem-font-size: 16 !default;
+
+@function strip-unit($number) {
+    @if type-of($number) == 'number' and not unitless($number) {
+        @return $number / ($number * 0 + 1);
+    }
+    @return $number;
+}
+
+
+@function rem($value) {
+    @if type-of($value) != 'number' {
+        /* stylelint-disable max-line-length */
+
+        @error 'You have to enter only a number for `$value`. You entered #{$value}`.';
+
+        /* stylelint-enable */
+    }
+    @return strip-unit($value) / strip-unit($to-rem-font-size) * 1rem;
+}

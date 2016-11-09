@@ -1,0 +1,25 @@
+$c-header-border: 5px double #a9a9a9;
+
+.c-header {
+}
+
+.c-header__title {
+    background-color: #fff;
+    border-bottom: $c-header-border;
+    border-top: $c-header-border;
+    padding: rem(15);
+    text-align: center;
+
+}
+
+.c-header__title-border {
+    background-color: $g-color-primary;
+    height: 60px;
+
+}
+
+.c-header__image {
+    background-color: $g-color-primary;
+    height: 300px;
+}
+

@@ -1,0 +1,13 @@
+$g-headline-border: 2px solid #000;
+
+
+
+.c-headline {
+    background-color: #fff;
+    border-bottom: $g-headline-border;
+    border-radius: 0 0 10px 10px;
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+
+}

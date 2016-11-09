@@ -1,0 +1,35 @@
+.l-news {
+    margin-top: rem(20);
+}
+
+
+
+.c-news {
+    border: $g-headline-border;
+
+    height: rem(300);
+    margin: auto;
+    margin-top: rem(40);
+    text-align: right;
+    width: rem(600);
+
+}
+
+.c-news--date {
+    position: relative;
+
+}
+
+.c-news--image {
+    float:left;
+    height: rem(120);
+    width: rem(120);
+}
+
+.c-news--content {
+    position: relative;
+}
+
+.c-news__bottom {
+    margin-bottom: rem(40);
+}
