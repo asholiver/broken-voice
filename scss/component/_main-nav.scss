@@ -10,6 +10,7 @@
 .c-main-nav__circle {
     background-color: $g-color-primary;
     border-radius: 0 0 120px 120px;
+
     height: rem(60);
     margin: auto;
     width: rem(200);
@@ -24,16 +25,12 @@
     position:absolute;
     right: rem(40);
 
-
-
 }
 
 .c-main-nav__item-2 {
     bottom: 15px;
     position:absolute;
     right: 30px;
-
-
 
 }
 

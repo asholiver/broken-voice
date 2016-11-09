@@ -1,33 +1,36 @@
-.l-news {
-    margin-top: rem(20);
-}
-
-
 
 .c-news {
-    border: $g-headline-border;
-
+    background-color: #D3D3D3;
+    border-bottom:2px dashed #000;
     height: rem(300);
     margin: auto;
     margin-top: rem(40);
-    text-align: right;
+    text-align: left;
     width: rem(600);
 
 }
 
+.c-news--header {
+    padding-top: rem(5);
+}
+
 .c-news--date {
+    padding-top: rem(5);
     position: relative;
+
 
 }
 
 .c-news--image {
-    float:left;
-    height: rem(120);
-    width: rem(120);
+    float: left;
+    height: rem(160);
+    width: rem(160);
 }
 
 .c-news--content {
+    padding-top: rem (10);
     position: relative;
+
 }
 
 .c-news__bottom {
