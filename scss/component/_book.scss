@@ -1,7 +1,9 @@
 .c-book-section {
-    background-color: $g-color-primary;
+    background-color: rgba($g-color-primary, 0.7);
     margin-bottom: 60px;
     padding-bottom: 40px;
+   // opacity:0.7;
+
 }
 
 
@@ -14,4 +16,5 @@
     height: rem(310); // TODO - Resize images in photoshop
     margin-top: rem(16);
     width: 100%;
+    opacity:1;
 }

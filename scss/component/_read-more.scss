@@ -1,3 +1,16 @@
 .c-read-more {
-    text-align:center;
+    border: 1px solid #000;
+    background-color: rgba($g-color-primary, 0.7);
+    display: block;
+    font-size: rem(18);
+    margin-bottom: rem(30);
+    margin-top: rem(30);
+    padding-bottom: rem(16);
+    padding-top: rem(16);
+    text-align: center;
+
+    &:hover,
+    &:focus {
+        background-color: rgba($g-color-primary, 1);
+    }
 }

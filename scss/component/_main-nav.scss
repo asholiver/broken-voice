@@ -1,3 +1,4 @@
+
 .c-main-nav {
     background-color: $g-color-primary;
     display: flex;
@@ -10,44 +11,47 @@
 .c-main-nav__circle {
     background-color: $g-color-primary;
     border-radius: 0 0 120px 120px;
-
     height: rem(60);
     margin: auto;
     width: rem(200);
-}
-
-.c-main-nav__item {
     position: relative;
 }
 
-.c-main-nav__item-1 {
-    bottom: rem(60);
+.c-main-nav__item {
     position:absolute;
-    right: rem(40);
+}
+
+.c-main-nav__item.is-active {
+    background-color: #000;
+}
+
+.c-main-nav__item--west {
+    right: 100%;
+    top: 0;
 
 }
 
-.c-main-nav__item-2 {
-    bottom: 15px;
-    position:absolute;
-    right: 30px;
+.c-main-nav__item--south-west {
+    right: 80%;
+    top: 20%;
 
 }
 
-.c-main-nav__item-3 {
-    bottom: 10px;
-    right: 20px;
+.c-main-nav__item--south{
+    left: 50%;
+    top: 100%;
+    transform:translate(-50%);
 
 }
 
-.c-main-nav__item-4 {
-    bottom: 100px;
-    right: 10px;
-
+.c-main-nav__item--south-east {
+    left: 30%;
+    top: 0%;
 
 }
 
-.c-main-nav__item-5 {
-    bottom: 20px;
+.c-main-nav__item--east {
+    left: 100%;
+    top: 0;
 
 }

@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+html {
+    font-size: $g-font-size / 16 * 1em;
+}
+
 ul,
 ol {
     list-style: none;
